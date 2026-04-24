@@ -5,12 +5,13 @@ Authentication is session based and all note routes are protected, that only use
 
 # INSTRUCTIONS
 1. Clone repository
+git clone git@github.com:f4-f0rever-star/flask-c10-summative-lab-sessions-and-jwt-clients.git
 2. Install dependencies
     pipenv install
     pipenv shell
 3. Set up database
     flask db init
-    flask db migrate -m "Initial migration"
+    flask db migrate -m "comment"
     flask db upgrade
 4. Seed the database 
     python3 seed.py
